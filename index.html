@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartcalc</title>
+
+    <link rel="icon" href="" type="image/svg+xml">
+
+    <link rel="stylesheet" href="/src/css/style.css">
+
+    <script src="/src/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Smartcalc</h1>
+
+        <div>
+            <p>Rule of Three</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div>
+            <input id="num1" onkeyup="ruleOfThree()" maxlength="10">
+            <img class="arrow" src="/src/img/arrow.svg" alt="">
+            <input id="num2" onkeyup="ruleOfThree()" maxlength="10">
+        </div>
+
+        <div>
+            <input id="num3" onkeyup="ruleOfThree()" maxlength="10">
+            <img class="arrow" src="/src/img/arrow.svg" alt="">
+            <div id="result">X</div>
+        </div>
+    </div>
+</body>
+</html>
